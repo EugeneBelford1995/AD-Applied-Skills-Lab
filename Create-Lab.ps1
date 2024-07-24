@@ -53,9 +53,9 @@ if ($bootOrder[0].BootType -ne 'Drive') {
 Start-VM -Name $VMName
 }#Close the Create-VM function
 
-#Create-SW
-#Write-Host "Creating VMSwitch, please standby ..."
-#Start-Sleep -Seconds 30
+Create-SW
+Write-Host "Creating VMSwitch, please standby ..."
+Start-Sleep -Seconds 30
 
 Create-VM -VMName Tailwind-DC1
 Create-VM -VMName Tailwind-MBR1
