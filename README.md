@@ -56,4 +56,6 @@ Ok
 
 --- Summary ---
 
+Import Cleanup.ps1 and 'Cleanup-VM -VMName <name>' to stop the VMs, remove them from Hyper-V, and delete their files once you're done with the lab. Don't run Cleanup.ps1 unless and until then!
+
 Good luck on your assessment! Please leave any comments, suggestions, criticisms, etc here or on our Medium. Feedback is welcome!
